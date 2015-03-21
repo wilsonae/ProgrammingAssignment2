@@ -44,5 +44,9 @@ cacheSolve <- function(x, ...) {
   m <- solve(data, ...)
   x$setinv(m)
   m
+<<<<<<< HEAD
   ## Return a matrix that is the inverse of 'x'
+=======
+        ## Return a matrix that is the inverse of 'x'
+>>>>>>> origin/master
 }
